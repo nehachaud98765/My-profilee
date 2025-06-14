@@ -1,0 +1,148 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    background-color: #f4f4f9;
+}
+
+.resume-container {
+    display: flex;
+    max-width: 900px;
+    margin: 20px auto;
+    background-color: white;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+
+.sidebar {
+    width: 30%;
+    background-color: #1a2a44;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+.profile img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    margin-bottom: 10px;
+}
+
+.profile h2 {
+    font-size: 20px;
+    margin-bottom: 5px;
+}
+
+.profile p {
+    font-size: 14px;
+    color: #a3bffa;
+}
+
+.contact {
+    margin: 20px 0;
+    font-size: 14px;
+}
+
+.contact p {
+    margin: 10px 0;
+}
+
+.skills {
+    margin: 20px 0;
+}
+
+.skills p {
+    text-align: left;
+    font-size: 14px;
+    margin: 5px 0;
+}
+
+.skill-bar {
+    background-color: #2d3e5e;
+    height: 5px;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+.skill-bar .fill {
+    background-color: #a3bffa;
+    height: 100%;
+    border-radius: 5px;
+}
+
+.language {
+    margin: 20px 0;
+}
+
+.language p {
+    font-size: 14px;
+    margin-bottom: 10px;
+}
+
+.language-circle {
+    width: 50px;
+    height: 50px;
+    border: 5px solid #a3bffa;
+    border-radius: 50%;
+    margin: 0 auto;
+}
+
+
+.main-content {
+    width: 70%;
+    padding: 40px;
+    background-color: #e6f0fa;
+}
+
+.main-content h1 {
+    font-size: 36px;
+    color: #1a2a44;
+}
+
+.main-content h3 {
+    font-size: 18px;
+    color: #1a2a44;
+    margin-bottom: 20px;
+}
+
+section {
+    margin: 30px 0;
+}
+
+section h2 {
+    font-size: 24px;
+    color: #1a2a44;
+    margin-bottom: 15px;
+    border-bottom: 2px solid #1a2a44;
+    padding-bottom: 5px;
+}
+
+section p {
+    font-size: 14px;
+    line-height: 1.6;
+    color: #333;
+}
+
+.edu-item, .exp-item {
+    margin: 20px 0;
+}
+
+.edu-item h4, .exp-item h4 {
+    font-size: 16px;
+    color: #1a2a44;
+}
+
+.edu-item h5, .exp-item h5 {
+    font-size: 16px;
+    color: #333;
+    margin: 5px 0;
+}
+
+.edu-item p {
+    margin-top: 5px;
+}
